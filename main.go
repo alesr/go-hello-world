@@ -13,7 +13,7 @@ import (
 
 // a very simple HTML template
 const tmpl = `
-<h1>Go &mdash; Hello World!</h1>
+<h1>Go &mdash; Hello World!</h1> *from branch dev =]
 
 {{if .Error}}
     <p>Problem connecting to MySQL:</p>
